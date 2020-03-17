@@ -1,0 +1,26 @@
+
+
+.label {
+	composes: label from './formsA.css';
+	font-size:14px;
+	color:darkgray;
+	cursor:pointer;
+}
+
+.input {
+	composes: input from './formsA.css';
+	border-radius: 0px;
+}
+
+.logo {
+	composes: logo from './formsA.css';
+	color:cornflowerblue;
+}
+
+.logo:hover {
+	color:chartreuse;
+}
+
+.submit {
+	color:cornflowerblue;
+}

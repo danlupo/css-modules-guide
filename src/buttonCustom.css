@@ -1,0 +1,5 @@
+.root {
+    composes: root from './buttons.css';
+    padding: 20px;
+    border: 1px solid black;
+}

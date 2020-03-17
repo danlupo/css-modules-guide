@@ -1,0 +1,4 @@
+.root {
+    composes: root from '../Button/button.css';
+    background-color: deeppink;
+}

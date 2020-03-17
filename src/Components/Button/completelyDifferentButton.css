@@ -1,0 +1,16 @@
+.root {
+    font-size: 0;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border:dashed 5px rgb(6, 177, 245);
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 3.5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+  }
+  
+  @-webkit-keyframes spin {
+    from   {  -webkit-transform: rotate(0deg); }
+    to   {  -webkit-transform: rotate(360deg); }
+  }

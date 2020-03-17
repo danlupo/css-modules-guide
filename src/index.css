@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #ededed;
+  font-family: sans-serif;
+}
+
+
+nav {
+  background-color: #282a36;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 2px solid teal;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  list-style:none;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+}
+
+nav ul li a:hover {
+  opacity: 0.8;
+}
+
+
+hr {
+  margin: 30px -50px;
+}
+
+:global(.Collapsible__trigger) {
+    text-transform: uppercase;
+    font-size: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+    color: cornflowerblue;
+}
+
+:global(.Collapsible__contentInner) {
+    margin-bottom:10px
+}

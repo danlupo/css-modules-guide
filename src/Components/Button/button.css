@@ -1,0 +1,13 @@
+.root {
+    padding: 10px;
+    font-size: 12px;
+    background-color: cornflowerblue;
+    border: none;
+    display: inline-block;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.root:hover {
+    opacity: 0.8;
+}
